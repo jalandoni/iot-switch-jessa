@@ -1,5 +1,5 @@
 {
-    "name": "Midterm",
+    "name": "iot-switch-jessa",
     "version": "1.0.0",
     "description": "MQTT over Websocket Web Application",
     "main": "index.js",

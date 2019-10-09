@@ -19,5 +19,8 @@
     "bugs": {
         "url": "https://github.com/jalandoni/iot-switch-jessa/issues"
     },
-    "homepage": "https://github.com/jalandoni/iot-switch-jessa#readme"
+    "homepage": "https://github.com/jalandoni/iot-switch-jessa#readme",
+    "dependencies": {
+        "express": "^4.17.1"
+    }
 }

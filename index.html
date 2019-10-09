@@ -1,0 +1,46 @@
+<html>
+
+<head>
+    <title>mows</title>
+</head>
+<link>
+<link>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css" integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX" crossorigin="anonymous">
+<style>
+    body {
+        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLq3Sf8jlcEgh_98UVC_3hMCKeDZdJxvuyg3y8oRbp7Kxfn05p");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: 0cm;
+    }
+</style>
+
+<body>
+    <br>
+    <div class="col-lg-8  container card ">
+        <div class="col-md-4"></div>
+        <div class="card-header">
+            <p class="text-center h4">IOT SWITCH</p>
+        </div>
+        <br>
+        <center>
+            <label>Status</label>
+
+            <input id="status" name="status">
+            <br>
+            <button id="on" type="button" class="btn btn-raised btn-primary">On</button>
+            <button id="off" type="button" class="btn btn-raised btn-primary">Off</button>
+        </center>
+        <br>
+        <label>Address</label>
+        <input type="text" id="address" value="wss://test.mosquitto.org:8081/mqtt">
+        <br>
+
+</body>
+
+<script src="scripts/controller.js"></script>
+<script src="scripts/browserMqtt.js"></script>
+
+</html>
